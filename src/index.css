@@ -1,0 +1,23 @@
+html {
+  scrollbar-gutter: stable;
+}
+
+/* 舊版瀏覽器以固定顯示垂直捲軸預留相同空間 */
+@supports not (scrollbar-gutter: stable) {
+  html {
+    overflow-y: scroll;
+  }
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
