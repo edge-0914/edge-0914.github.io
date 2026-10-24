@@ -1,4 +1,4 @@
-import profileImg from '../assets/photo.png'
+import profileImg from '../assets/profile.jpeg'
 
 function About() {
   return (
